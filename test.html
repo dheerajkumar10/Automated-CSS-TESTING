@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        var fontSize = "16px";
+        $(document).ready(function () {
+            $("p").each(function () {
+                if ($(this).css("fontSize") != fontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+                }
+            });
+            $("h4").each(function () {
+                if ($(this).css("fontSize") != fontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+                }
+            });
+            $("h5").each(function () {
+                if ($(this).css("fontSize") != fontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+                }
+            });
+
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div>
+        <p style="font-size: 16px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <p style="font-size: 12px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <p style="font-size: 16px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <p style="font-size: 16px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <p style="font-size: 12px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <p style="font-size: 16px;">
+            Lets try testing this out on how page can take css inline or how it can go for other things
+        </p>
+        <div>
+            <div>
+                <p style="font-size: 12px;">
+                    Lets try testing this out on how page can take css inline or how it can go for other things
+                </p>
+                <p style="font-size: 16px;">
+                    Lets try testing this out on how page can take css inline or how it can go for other things
+                </p>
+            </div>
+</body>
+
+</html>

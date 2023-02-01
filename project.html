@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="SEprj.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        var pfontSize = "14px";
+        var h4fontSize = "16px";
+        var h3fontSize = "20px";
+        var pfontFamily = "serif";
+        var plineHeight = "normal"
+        $(document).ready(function () {
+            $("h3").each(function () {
+                if ($(this).css("fontSize") != h3fontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+                }
+            });
+            $("h4").each(function () {
+                if ($(this).css("fontSize") != h4fontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+                }
+            });
+
+            $("p").each(function () {
+                if ($(this).css("fontSize") != pfontSize) {
+                    $(this).css({
+                        backgroundColor: 'red'
+                    });
+
+                }
+                if ($(this).css("font-family") != pfontFamily) {
+                    $(this).css({
+                        backgroundColor: 'blue'
+                    });
+                }
+                if ($(this).css("line-height") != plineHeight) {
+                    $(this).css({
+                        backgroundColor: 'green'
+                    });
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="class1">
+        <h4>Special Topics In Software Engineering</h4>
+        <p>The failure of a presentation on a website can have a negative impact on quality of the website, the services
+            it provides, and branding the company is trying to achieve. Presentation failure can easily occur in modern
+            web applications due to the complex and powerful nature of HTML, CSS. Most of the companies follow specific
+            font and colours for their website. They maintain consistency in their design throughout the website. Any
+            anomaly in website CSS with consistency will lead presentation failure.</p>
+        <div class="class2">
+            <h4> Intro About Our Project</h4>
+            <p class="class2">
+                As a part of UI development unit testing is an important task to check which things are visually
+                missing according to design or website consistency. It is a very difficult task to testing team to
+                check with every line on static pages to find the missing CSS and automating the process of CSS
+                testing will be a useful tool to give a report on website CSS.
+            </p>
+            <div class="class3">
+                <h4 class="class3">
+                    Previous Work
+                </h4>
+                <section>
+                    <p>
+                        Literature review:
+                        (1) detection – identify presentation failures by comparing test web page rendering and its
+                        oracle, (2) localization – identify potentially faulty HTML and CSS elements responsible for the
+                        observed presentation failures in phase 1, and (3) result set processing – prioritize the set of
+                        potentially faulty HTML elements identified in phase 2. The output of phase 3 is reported to the
+                        user.
+
+                    </p>
+                </section>
+                <div class=" class8">
+                    <p class=" class8">
+                        <h3>
+                            to check previous header tags
+                        </h3>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class4">
+        <h4>Special Topics In Software Engineering</h4>
+        <p class="class4">The failure of a presentation on a website can have a negative impact on quality of the
+            website, the services
+            it provides, and branding the company is trying to achieve. Presentation failure can easily occur in modern
+            web applications due to the complex and powerful nature of HTML, CSS. Most of the companies follow specific
+            font and colours for their website. They maintain consistency in their design throughout the website. Any
+            anomaly in website CSS with consistency will lead presentation failure.</p>
+        <div class="class5">
+            <h4> Intro About Our Project</h4>
+            <p>
+                As a part of UI development unit testing is an important task to check which things are visually
+                missing according to design or website consistency. It is a very difficult task to testing team to
+                check with every line on static pages to find the missing CSS and automating the process of CSS
+                testing will be a useful tool to give a report on website CSS.
+            </p>
+            <div class="class6">
+                <h4>
+                    Previous Work
+                </h4>
+                <section>
+                    <p class="class7">
+                        Literature review:
+                        (1) detection – identify presentation failures by comparing test web page rendering and its
+                        oracle, (2) localization – identify potentially faulty HTML and CSS elements responsible for the
+                        observed presentation failures in phase 1, and (3) result set processing – prioritize the set of
+                        potentially faulty HTML elements identified in phase 2. The output of phase 3 is reported to the
+                        user.
+
+                    </p>
+                </section>
+                <div class="class7">
+                    <p>
+                        <h3 style="font-size: 25px;">
+                            to check previous header tags
+                        </h3>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
